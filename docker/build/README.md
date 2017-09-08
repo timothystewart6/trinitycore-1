@@ -1,13 +1,12 @@
 # Dockerised TrinityCore 3.3.5
 
-![Stars](https://img.shields.io/docker/stars/nicolaw/trinitycore.svg) ![Pulls](https://img.shields.io/docker/pulls/nicolaw/trinitycore.svg) ![Build](https://img.shields.io/docker/automated/nicolaw/trinitycore.svg) ![Build](https://img.shields.io/docker/build/nicolaw/trinitycore.svg)
+![Stars](https://img.shields.io/docker/stars/timothystewart6/trinitycore-docker.svg) ![Pulls](https://img.shields.io/docker/pulls/timothystewart6/trinitycore-docker.svg) ![Build](https://img.shields.io/docker/automated/timothystewart6/trinitycore-docker.svg) ![Build](https://img.shields.io/docker/build/timothystewart6/trinitycore-docker.svg)
 
 TrinityCore build environment and wrapper.
 
+## Overview
 
-## Overview 
-
-Pull using `docker pull nicolaw/trinitycore`.
+Pull using `docker pull timothystewart6/trinitycore-docker`.
 
 Will attempt to build and create Docker service containers for TrinityCore 3.3.5
 branch (WotLK) by default. Source is pulled from
@@ -27,7 +26,6 @@ https://www.youtube.com/watch?v=JmzZdexSYaM.
 
 A user-friendly guide can also be found at
 https://github.com/neechbear/trinitycore/blob/master/GettingStarted.md.
-
 
 ## Synopsis
 
@@ -55,7 +53,6 @@ https://github.com/neechbear/trinitycore/blob/master/GettingStarted.md.
     See https://github.com/neechbear/trinitycore, https://neech.me.uk,
     https://github.com/neechbear/tcadmin, https://nicolaw.uk/#WoW and
     https://hub.docker.com/r/nicolaw/trinitycore.
-
 
 ## Caching & Debugging
 
@@ -94,7 +91,6 @@ https://github.com/neechbear/trinitycore/blob/master/docker/docker-compose.yaml.
 Full instructions on what to do next can be found in the README.md at 
 https://github.com/neechbear/trinitycore/blob/master/docker/README.md.
 
-
 ## See Also
 
 Related works by the same author:
@@ -116,7 +112,6 @@ Related TrinityCore projects and links:
 
 Initial inspiration taken from Jose Falcon's project
 https://github.com/neechbear/josefalcon-trinitycore-docker.
-
 
 ## License
 
@@ -141,4 +136,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
