@@ -5,44 +5,10 @@ in a fully Dockerised environment.
 
 See [docker/build/README.md](docker/build/README.md) for instructions regarding
 the TrinityCore build container, (published as Docker image
-`nicolaw/trinitycore` on Docker Hub at
-https://hub.docker.com/r/nicolaw/trinitycore/).
+`timothystewart6/trinitycore-docker` on Docker Hub at
+https://hub.docker.com/r/timothystewart6/trinitycore-docker/).
 
-
-## Todo
-
-Some planned future improvements to this project are as follows:
-
-  1. Implement additional container for aowow asset browsing
-     (https://github.com/Sarjuuk/aowow).
-
-  2. Where possible, move parts of the main `Makefile` in sub-directories for
-     each of the `docker/*` containers, thus simplifying the main `Makefile`.
-
-  3. Harmonise `docker/trinitycore/docker-compose.yaml` to read and honor
-     `Makefile` arguments, settings and variables.
-
-      * Split out `docker-compose.yaml` in to smaller chunks to allow easy
-        deployment of alternative configurations, such as using an external
-        database instead of deploying a MariaDB container.
-        (See https://docs.docker.com/compose/extends).
-
-  4. Attempt to make Docker base container images work with Alpine, Ubuntu and
-     CentOS as well as Debian Jessie.
-
-  5. See what improvements can be incorporated from other similar projects like
-     https://github.com/azerothcore/docker-files/.
-
-  6. Add TravisCI and CodeClimate integration to the GitHub project.
-
-  7. Bundle the `tcadmin` Bash completion command line tool somehow
-     (https://github.com/neechbear/tcadmin).
-
-  8. Document some more advanced use cases, such as a production/development
-     hybrid configuration sharing bare metal and Dockerised components in
-     unison.
-
-
+This awesome set of docker images was originally created by [neechbear](https://github.com/neechbear)
 ## License
 
 MIT License
