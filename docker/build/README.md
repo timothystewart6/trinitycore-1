@@ -1,4 +1,4 @@
-# Dockerised TrinityCore 3.3.5
+# Dockerized TrinityCore 3.3.5
 
 ![Stars](https://img.shields.io/docker/stars/timothystewart6/trinitycore-docker.svg) ![Pulls](https://img.shields.io/docker/pulls/timothystewart6/trinitycore-docker.svg) ![Build](https://img.shields.io/docker/automated/timothystewart6/trinitycore-docker.svg) ![Build](https://img.shields.io/docker/build/timothystewart6/trinitycore-docker.svg)
 
@@ -33,7 +33,7 @@ https://github.com/neechbear/trinitycore/blob/master/GettingStarted.md.
     build.sh version 1.0
     (C) 2017 Nicola Worthington. : Nicola Worthington <nicolaw@tfb.net>.
 
-    TrinityCore Dockerised build wrapper.
+    TrinityCore Dockerized build wrapper.
 
     Optional arguments:
      -h, --help : Boolean. Show this help.

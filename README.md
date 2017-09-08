@@ -1,4 +1,4 @@
-# Dockerised TrinityCore
+# Dockerized TrinityCore
 
 See [GettingStarted.md](GettingStarted.md) for a guide on how to run TrinityCore
 in a fully Dockerised environment.
@@ -9,6 +9,7 @@ the TrinityCore build container, (published as Docker image
 https://hub.docker.com/r/timothystewart6/trinitycore-docker/).
 
 This awesome set of docker images was originally created by [neechbear](https://github.com/neechbear)
+
 ## License
 
 MIT License
